@@ -1,0 +1,27 @@
+Started by user [8mha:////4Jg4lfFe2vr43HKVfP+y/TIOm0CTTYj0ZNf5rnER3aEAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgYe/dLi1CL9xLzMkoxEAAHg0mbBAAAA[0mAnitha p
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-projects
+The recommended git tool is: NONE
+using credential jenkins
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-projects/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/git-anitha/c-projects.git # timeout=10
+Fetching upstream changes from https://github.com/git-anitha/c-projects.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials 
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /var/lib/jenkins/workspace/c-projects@tmp/jenkins-gitclient-ssh6982520314786637300.key
+ > git fetch --tags --force --progress -- https://github.com/git-anitha/c-projects.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 08da06ae8710f91123501a81ddd14880a305b832 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 08da06ae8710f91123501a81ddd14880a305b832 # timeout=10
+Commit message: "sum big2 files"
+ > git rev-list --no-walk 08da06ae8710f91123501a81ddd14880a305b832 # timeout=10
+[c-projects] $ /bin/sh -xe /tmp/jenkins1932426400932771561.sh
++ /var/lib/jenkins/
+/tmp/jenkins1932426400932771561.sh: line 2: /var/lib/jenkins/: Is a directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

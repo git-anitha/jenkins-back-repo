@@ -1,0 +1,23 @@
+Started by user [8mha:////4Jg4lfFe2vr43HKVfP+y/TIOm0CTTYj0ZNf5rnER3aEAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgYe/dLi1CL9xLzMkoxEAAHg0mbBAAAA[0mAnitha p
+Running as SYSTEM
+Building remotely on [8mha:////4E7P76e0RwtlrBUq5+/PbFmYs7lUrrXpLvgaqgviGJ2DAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygOw0BADPgR8QAAAA=[0mnode1 in workspace /home/ubuntu/workspace/c-projects
+The recommended git tool is: NONE
+using credential a894364f-4f60-4735-aea1-de135e03dfd0
+Cloning the remote Git repository
+Cloning repository https://github.com/git-anitha/c-projects.git
+ > git init /home/ubuntu/workspace/c-projects # timeout=10
+Fetching upstream changes from https://github.com/git-anitha/c-projects.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/git-anitha/c-projects.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/git-anitha/c-projects.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 856b3a4bc26aaa5383569b38d642a692ce814b78 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 856b3a4bc26aaa5383569b38d642a692ce814b78 # timeout=10
+Commit message: "Create file11"
+ > git rev-list --no-walk 856b3a4bc26aaa5383569b38d642a692ce814b78 # timeout=10
+Finished: SUCCESS

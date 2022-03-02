@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-26 07:07:22.564 UTC</timestamp>
+  <md5sum>d0557f1a642ef4b45f1ea2e4309cb341</md5sum>
+  <fileName>Credential id=a894364f-4f60-4735-aea1-de135e03dfd0 name=anitha/******</fileName>
+  <usages>
+    <entry>
+      <string>c-projects</string>
+      <ranges>7-9,15-18</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

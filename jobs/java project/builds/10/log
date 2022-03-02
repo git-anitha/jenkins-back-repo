@@ -1,0 +1,22 @@
+Started by user [8mha:////4Jg4lfFe2vr43HKVfP+y/TIOm0CTTYj0ZNf5rnER3aEAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgYe/dLi1CL9xLzMkoxEAAHg0mbBAAAA[0mAnitha p
+Running as SYSTEM
+Building remotely on [8mha:////4Ejg71XhCmqFngIphrqp/4EF1MAOVnAKwnWKjw/2vubJAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 in workspace /home/ubuntu/workspace/java project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/git-anitha/java-project.git
+ > git init /home/ubuntu/workspace/java project # timeout=10
+Fetching upstream changes from https://github.com/git-anitha/java-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/git-anitha/java-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/git-anitha/java-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 157ee76ce127d16ae7e5b4d811b08f3df9871a37 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 157ee76ce127d16ae7e5b4d811b08f3df9871a37 # timeout=10
+Commit message: "Merge branch 'master' of github.com:efsavage/hello-world-war"
+ > git rev-list --no-walk 157ee76ce127d16ae7e5b4d811b08f3df9871a37 # timeout=10
+Finished: SUCCESS

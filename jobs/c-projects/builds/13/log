@@ -1,0 +1,23 @@
+Started by user [8mha:////4Jg4lfFe2vr43HKVfP+y/TIOm0CTTYj0ZNf5rnER3aEAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgYe/dLi1CL9xLzMkoxEAAHg0mbBAAAA[0mAnitha p
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/c-projects
+The recommended git tool is: NONE
+using credential ssh-jenkins--user
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-projects/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/git-anitha/c-projects.git # timeout=10
+Fetching upstream changes from https://github.com/git-anitha/c-projects.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials ssh-jenkins private key
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /var/lib/jenkins/workspace/c-projects@tmp/jenkins-gitclient-ssh3415596809094018535.key
+ > git fetch --tags --force --progress -- https://github.com/git-anitha/c-projects.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 856b3a4bc26aaa5383569b38d642a692ce814b78 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 856b3a4bc26aaa5383569b38d642a692ce814b78 # timeout=10
+Commit message: "Create file11"
+ > git rev-list --no-walk 856b3a4bc26aaa5383569b38d642a692ce814b78 # timeout=10
+Finished: SUCCESS

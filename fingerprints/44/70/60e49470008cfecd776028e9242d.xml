@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-02-26 06:41:33.315 UTC</timestamp>
+  <md5sum>447060e49470008cfecd776028e9242d</md5sum>
+  <fileName>Credential id=jenkins name=ec2-user</fileName>
+  <usages>
+    <entry>
+      <string>c-projects</string>
+      <ranges>5-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
